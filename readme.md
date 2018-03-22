@@ -129,9 +129,9 @@ import add3 from './add';
 [Webpack](https://webpack.js.org/)
 
 ## 8.Vue
-[Vue.js 官方文档](https://cn.vuejs.org/v2/guide/)
-[vue-router 官方文档](https://router.vuejs.org/zh-cn/)
-[Vuex 官方文档](https://vuex.vuejs.org/zh-cn/)
+* [Vue.js 官方文档](https://cn.vuejs.org/v2/guide/)
+* [vue-router 官方文档](https://router.vuejs.org/zh-cn/)
+* [Vuex 官方文档](https://vuex.vuejs.org/zh-cn/)
 
 ## 参考
 * [前端模块化开发那点历史](https://github.com/seajs/seajs/issues/588)
