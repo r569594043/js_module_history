@@ -1,0 +1,10 @@
+@width: 100px;
+.less {
+    width: @width;
+    .parent {
+        .child {
+            width: @width;
+            height: 100px + @width;
+        }
+    }
+}

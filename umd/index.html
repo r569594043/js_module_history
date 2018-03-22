@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UMD Sample</title>
+</head>
+<body>
+    <!-- <script src="math-jquery.js"></script> -->
+    <!-- <script src="math-umd.js"></script> -->
+
+    <script data-main="require-index.js" src="require.js"></script>
+    <button onclick="addTwoNumbers()">click</button>
+    <script>
+        function addTwoNumbers() {
+            console.log(math.add(1, 1));
+        }
+    </script>
+</body>
+</html>

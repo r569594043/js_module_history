@@ -1,0 +1,7 @@
+.css {
+    width: 100px;
+}
+.css .parent .child {
+    width: 100px;
+    height: 200px;
+}
