@@ -81,9 +81,9 @@ define(function(require, exports, module) {
 * [Sea.js Docs](https://seajs.github.io/seajs/docs/)
 
 ## 4.Browserify
-`npm install -g browserify`
-`browserify index.js -o bundle.js`
-语法同CommonJS
+`npm install -g browserify`  
+`browserify index.js -o bundle.js`  
+语法同CommonJS  
 [Browserify](http://browserify.org/)
 
 
