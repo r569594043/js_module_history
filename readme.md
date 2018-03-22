@@ -21,8 +21,8 @@ module.exports = function(n1, n2) {
     return n1 + n2;
 }
 ```
-```javascript
 ### import: index.js
+```javascript
 var add = require('math').add;
 add(1, 1);
 ```
