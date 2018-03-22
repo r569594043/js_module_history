@@ -20,7 +20,8 @@ module.exports = {
 module.exports = function(n1, n2) {
     return n1 + n2;
 }
-
+```
+```javascript
 ### import: index.js
 var add = require('math').add;
 add(1, 1);
