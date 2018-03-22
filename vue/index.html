@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test 1</title>
+    <style>
+        [v-cloak] {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="app" v-cloak>
+        <input type="text" v-model="message">
+        <p>message: {{ message }}</p>
+        <p>Reversed message: "{{ reversedMessage }}"</p>
+        <button v-on:click="onClick">Change Text</button>
+    </div>
+    <script src="assets/js/libs/vue.min.js"></script>
+    <script>
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello Vue.js!'
+            },
+            computed: {
+                // 计算属性的 getter
+                reversedMessage: function () {
+                  // `this` 指向 vm 实例
+                  return this.message.split('').reverse().join('')
+                }
+            },
+            methods: {
+                onClick: function() {
+                    this.message = "Hello world!";
+                }
+            }
+        });
+    </script>
+</body>
+</html>
